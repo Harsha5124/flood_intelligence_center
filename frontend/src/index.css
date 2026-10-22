@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #070d18;
+    background-image: radial-gradient(rgba(14, 165, 233, 0.08) 1px, transparent 1px);
+    background-size: 28px 28px;
+    color: #e2e8f0;
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #081122;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e3a8a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0284c7;
+}
+
+/* Glassmorphism card utility */
+.fic-glass-card {
+  background: rgba(12, 25, 48, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), inset 0 1px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+.fic-glass-card:hover {
+  border-color: rgba(56, 189, 248, 0.35);
+}
+
+/* Futuristic border glow */
+.fic-glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.35);
+}
+.fic-glow-blue {
+  box-shadow: 0 0 25px -4px rgba(2, 132, 199, 0.4);
+}
+.fic-glow-red {
+  box-shadow: 0 0 25px -4px rgba(239, 68, 68, 0.5);
+}
+
+/* Pulse animation for radar & alert badges */
+@keyframes radar-pulse {
+  0% { transform: scale(0.95); opacity: 0.9; }
+  50% { transform: scale(1.15); opacity: 0.4; }
+  100% { transform: scale(0.95); opacity: 0.9; }
+}
+
+@keyframes wave {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(-25%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes live-ping {
+  0% { transform: scale(1); opacity: 0.8; }
+  70% { transform: scale(2.2); opacity: 0; }
+  100% { transform: scale(2.2); opacity: 0; }
+}
+
+.animate-radar-pulse {
+  animation: radar-pulse 2s infinite ease-in-out;
+}
+
+.animate-live-ping {
+  animation: live-ping 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Leaflet dark theme override */
+.leaflet-container {
+  background-color: #070d18 !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #0c1930 !important;
+  color: #f1f5f9 !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7) !important;
+}
+.leaflet-popup-tip {
+  background: #0c1930 !important;
+  border: 1px solid rgba(56, 189, 248, 0.3) !important;
+}

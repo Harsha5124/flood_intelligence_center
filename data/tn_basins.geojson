@@ -1,0 +1,496 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kosasthalaiyar",
+        "name": "Kosasthalaiyar-Araniar",
+        "rivers": "Kosasthalaiyar, Araniar",
+        "districts": "Tiruvallur, north Chennai",
+        "modelled": false,
+        "lat": 13.35,
+        "lon": 79.89
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.55,
+              13.5
+            ],
+            [
+              80.32,
+              13.5
+            ],
+            [
+              80.27,
+              13.22
+            ],
+            [
+              79.78,
+              13.22
+            ],
+            [
+              79.55,
+              13.3
+            ],
+            [
+              79.55,
+              13.5
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cooum",
+        "name": "Cooum",
+        "rivers": "Cooum",
+        "districts": "Tiruvallur, Kancheepuram, Chennai",
+        "modelled": true,
+        "lat": 13.11,
+        "lon": 80.07
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.78,
+              13.22
+            ],
+            [
+              80.27,
+              13.22
+            ],
+            [
+              80.3,
+              13.07
+            ],
+            [
+              80.27,
+              13.03
+            ],
+            [
+              80.0,
+              13.03
+            ],
+            [
+              79.78,
+              13.1
+            ],
+            [
+              79.78,
+              13.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "adyar",
+        "name": "Adyar",
+        "rivers": "Adyar",
+        "districts": "Kancheepuram, Chengalpattu, Chennai",
+        "modelled": true,
+        "lat": 12.92,
+        "lon": 80.08
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              79.92,
+              13.03
+            ],
+            [
+              80.27,
+              13.03
+            ],
+            [
+              80.25,
+              12.92
+            ],
+            [
+              80.18,
+              12.8
+            ],
+            [
+              80.0,
+              12.8
+            ],
+            [
+              79.88,
+              12.92
+            ],
+            [
+              79.92,
+              13.03
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "palar",
+        "name": "Palar",
+        "rivers": "Palar, Cheyyar",
+        "districts": "Vellore, Ranipet, Tirupathur, Kancheepuram, Chengalpattu",
+        "modelled": true,
+        "lat": 12.88,
+        "lon": 79.49
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.3,
+              13.2
+            ],
+            [
+              79.78,
+              13.22
+            ],
+            [
+              79.78,
+              13.1
+            ],
+            [
+              79.92,
+              13.03
+            ],
+            [
+              79.88,
+              12.92
+            ],
+            [
+              80.0,
+              12.8
+            ],
+            [
+              80.18,
+              12.8
+            ],
+            [
+              80.15,
+              12.5
+            ],
+            [
+              79.5,
+              12.5
+            ],
+            [
+              78.6,
+              12.7
+            ],
+            [
+              78.3,
+              12.9
+            ],
+            [
+              78.3,
+              13.2
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pennaiyar",
+        "name": "Pennaiyar (Ponnaiyar)",
+        "rivers": "Thenpennai, Gadilam, Malattar",
+        "districts": "Krishnagiri, Dharmapuri, Tiruvannamalai, Villupuram, Cuddalore",
+        "modelled": false,
+        "lat": 12.35,
+        "lon": 78.83
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.7,
+              12.9
+            ],
+            [
+              78.3,
+              12.9
+            ],
+            [
+              78.6,
+              12.7
+            ],
+            [
+              79.5,
+              12.5
+            ],
+            [
+              80.15,
+              12.5
+            ],
+            [
+              79.85,
+              11.85
+            ],
+            [
+              79.3,
+              11.8
+            ],
+            [
+              78.3,
+              11.9
+            ],
+            [
+              77.8,
+              12.1
+            ],
+            [
+              77.7,
+              12.9
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "cauvery",
+        "name": "Cauvery",
+        "rivers": "Cauvery, Bhavani, Noyyal, Amaravathi, Coleroon",
+        "districts": "Salem, Erode, Namakkal, Karur, Tiruchirappalli, Thanjavur, Tiruvarur, Coimbatore",
+        "modelled": true,
+        "lat": 11.2,
+        "lon": 78.25
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.2,
+              12.0
+            ],
+            [
+              76.7,
+              11.6
+            ],
+            [
+              76.8,
+              10.9
+            ],
+            [
+              77.4,
+              10.7
+            ],
+            [
+              78.0,
+              10.5
+            ],
+            [
+              78.6,
+              10.4
+            ],
+            [
+              79.2,
+              10.25
+            ],
+            [
+              79.85,
+              10.45
+            ],
+            [
+              79.85,
+              11.85
+            ],
+            [
+              79.3,
+              11.8
+            ],
+            [
+              78.3,
+              11.9
+            ],
+            [
+              77.8,
+              12.1
+            ],
+            [
+              77.2,
+              12.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "vaigai",
+        "name": "Vaigai",
+        "rivers": "Vaigai, Sirumalai",
+        "districts": "Theni, Dindigul, Madurai, Sivaganga, Ramanathapuram",
+        "modelled": true,
+        "lat": 9.95,
+        "lon": 78.28
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4,
+              10.7
+            ],
+            [
+              78.0,
+              10.5
+            ],
+            [
+              78.6,
+              10.4
+            ],
+            [
+              79.2,
+              10.25
+            ],
+            [
+              79.3,
+              9.5
+            ],
+            [
+              78.9,
+              9.2
+            ],
+            [
+              78.2,
+              9.5
+            ],
+            [
+              77.6,
+              9.6
+            ],
+            [
+              77.3,
+              9.9
+            ],
+            [
+              77.4,
+              10.7
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gundar-vaippar",
+        "name": "Gundar-Vaippar",
+        "rivers": "Gundar, Vaippar, Arjuna",
+        "districts": "Virudhunagar, Thoothukudi, Ramanathapuram",
+        "modelled": false,
+        "lat": 9.19,
+        "lon": 78.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.6,
+              9.6
+            ],
+            [
+              78.2,
+              9.5
+            ],
+            [
+              78.9,
+              9.2
+            ],
+            [
+              78.5,
+              8.9
+            ],
+            [
+              77.9,
+              8.95
+            ],
+            [
+              77.5,
+              9.0
+            ],
+            [
+              77.6,
+              9.6
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tamiraparani",
+        "name": "Tamiraparani and southern rivers",
+        "rivers": "Tamiraparani, Chittar, Nambiyar, Pazhayar",
+        "districts": "Tirunelveli, Tenkasi, Thoothukudi, Kanniyakumari",
+        "modelled": true,
+        "lat": 8.69,
+        "lon": 77.77
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.5,
+              9.0
+            ],
+            [
+              77.9,
+              8.95
+            ],
+            [
+              78.5,
+              8.9
+            ],
+            [
+              78.5,
+              8.4
+            ],
+            [
+              77.55,
+              8.1
+            ],
+            [
+              77.25,
+              8.4
+            ],
+            [
+              77.2,
+              9.1
+            ],
+            [
+              77.5,
+              9.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

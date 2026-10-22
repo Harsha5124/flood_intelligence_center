@@ -1,0 +1,59 @@
+{
+  "model": "HistGradientBoosting (Multi-Basin Ensemble)",
+  "basins_supported": [
+    "adyar",
+    "cooum",
+    "cauvery",
+    "vaigai",
+    "tamiraparani",
+    "palar"
+  ],
+  "threshold": 0.195,
+  "split": {
+    "train": "2000-2015",
+    "validation": "2016-2019",
+    "test": "2020-2025 (held-out)"
+  },
+  "rows": {
+    "train": 35064,
+    "validation": 8766,
+    "test": 13146,
+    "flood_days_test": 85
+  },
+  "test": {
+    "roc_auc": 0.998,
+    "pr_auc": 0.795,
+    "precision": 0.67,
+    "recall": 0.718,
+    "f1": 0.693
+  },
+  "level_regressor_test": {
+    "mae_m": 0.049,
+    "r2": 0.943
+  },
+  "features": [
+    "basin_code",
+    "rain_1d",
+    "rain_3d",
+    "rain_7d",
+    "rain_14d",
+    "rain_fcst_1d",
+    "soil",
+    "storage_pct",
+    "level_m",
+    "d_level",
+    "tide_m",
+    "month_sin",
+    "month_cos"
+  ],
+  "feature_importance": {
+    "rain_fcst_1d": 0.685,
+    "level_m": 0.124,
+    "rain_1d": 0.062,
+    "storage_pct": 0.048,
+    "rain_14d": 0.035,
+    "soil": 0.021,
+    "basin_code": 0.015,
+    "tide_m": 0.01
+  }
+}
